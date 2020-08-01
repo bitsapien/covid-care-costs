@@ -9,6 +9,12 @@ In the interest of the people, this project is an effort to help people compare 
 
 ### Local Development
 
+If you have python install, you could spin up the HTTP server using:
+
+```sh
+python -m SimpleHTTPServer 8000
+```
+
 ### Contributions
 Coontributions in all forms are welcome, [create an issue](https://github.com/bitsapien/covid-care-costs/issues/new) if you have an idea to improve this.
 
