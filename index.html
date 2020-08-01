@@ -1,0 +1,73 @@
+<!doctype html>
+    <head>
+        <title> COVID Care Costs</title>
+        <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
+    </head>
+    <body>
+        <h1> COVID Care Costs </h1>
+        <p><em> This info has been provided by the public that are communicated by the hospital authorities to them. The intent is to help patients decide what hospital they can afford given the high costs.</em></p>
+
+        <h3> Hyderabad </h3>
+        <hr>
+          <table id="stats-table">
+            <thead>
+                <tr>
+                  <th rowspan="2"> Hopital Name, Area </th>
+                  <th align="center" colspan="4"> Initial Deposit (₹)</th>
+                  <th align="center" colspan="4"> Per day estimate (₹) (with insurance)</th>
+                  <th align="center" colspan="4"> Per day estimate (₹) (without insurance)</th>
+                </tr>
+                <tr>
+                  <th> Min </th>
+                  <th> Max </th>
+                  <th> Mean </th>
+                  <th> Median </th>
+                  <th> Min </th>
+                  <th> Max </th>
+                  <th> Mean </th>
+                  <th> Median </th>
+                  <th> Min </th>
+                  <th> Max </th>
+                  <th> Mean </th>
+                  <th> Median </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <td> Loading...</td> </tr>
+            </tbody>
+          </table>
+        <script id="stats-table-template" type="x-tmpl-mustache">
+              <tr>
+                   <td>Moonlight, Machbowli </td>
+                   {{! Initial Deposit }}
+                   <td>5000</td>
+                   <td>5000</td>
+                   <td>5000</td>
+                   <td>5000</td>
+                   {{! Per day estimate - with insurance}}
+                   <td>5000</td>
+                   <td>5000</td>
+                   <td>5000</td>
+                   <td>5000</td>
+                   {{! Per day estimate - without insurance}}
+                   <td>5000</td>
+                   <td>5000</td>
+                   <td>5000</td>
+                   <td>5000</td>
+                </tr>
+            </tbody>
+          </table>
+        </script>
+
+        <hr>
+        <p> If you beleive your hospital has been misrepresented please fill in this form  </p>
+          <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+          <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+          <!-- Add Firebase products that you want to use -->
+          <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+          <script src="https://unpkg.com/mustache@latest"></script>
+
+          <script src="./app.js"></script>
+    </body>
+</html>
