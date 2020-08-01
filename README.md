@@ -1,3 +1,5 @@
+![](./covid.png)
+
 # COVID Care Costs
 
 
