@@ -1,6 +1,6 @@
 ![](./covid.png)
 
-# COVID Care Costs
+# COVID Care Costs ₹
 
 
 Hospitals in the current times are charging enormous amounts to treat COVID patients that are simply not affordable.
