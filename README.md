@@ -1,4 +1,4 @@
-![](./covid.png)
+![](./images/covid.png)
 
 # COVID Care Costs ₹
 
